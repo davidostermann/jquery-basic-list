@@ -1,0 +1,25 @@
+.page-title {
+  position: absolute;
+  display:block;
+  font-size: 2.2em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header {
+  font-size: 1.5em;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.book-filter {
+  margin-top: 20px;
+}
+
+.book-link {
+  display: block;
+  top: 50% !important;
+  transform: translateY(-50%);
+}

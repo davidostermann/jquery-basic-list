@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Book list</title>
+    <!--  http://google.github.io/material-design-icons/ -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <span class="page-title">Book list</span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h3 class="header red lighten-2">Choose a type : </h3>
+      <div class="collection" id="filter-list">
+        <a class="collection-item activate" data-type="all">All</a>
+        <a class="collection-item" data-type="css">css</a>
+        <a class="collection-item" data-type="js">js</a>
+      </div>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <h3 class="header red lighten-2">Results : </h3>
+          <ul class="collection" id="book-list">
+
+          </ul>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js" charset="utf-8"></script>
+    <script src="js/materialize.min.js" charset="utf-8"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+  </body>
+</html>
