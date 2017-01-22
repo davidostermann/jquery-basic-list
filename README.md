@@ -26,19 +26,19 @@ var books = [
 {
   title: 'You Don\'t Know JS: Up & Going',
   author: 'Kyle Simpson',
-  link: 'http://shop.oreilly.com/product/0636920039303.do'
+  link: 'http://shop.oreilly.com/product/0636920039303.do',
   type: 'js'
 },
 {
   title: 'Programming JavaScript Applications',
   author: 'Eric Elliott',
-  link: 'http://shop.oreilly.com/product/0636920033141.do'
+  link: 'http://shop.oreilly.com/product/0636920033141.do',
   type: 'js'
 },
 {
   title: 'Modern JavaScript',
   author: 'unknown',
-  link: 'http://www.oreilly.com/web-platform/free/modern-javascript.csp'
+  link: 'http://www.oreilly.com/web-platform/free/modern-javascript.csp',
   type: 'js'
 }
 ] ;
